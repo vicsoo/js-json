@@ -50,6 +50,7 @@ fetch('https://jsonplaceholder.typicode.com/albums')
     document.getElementById("album").innerHTML = album;
 })
 
-// Objeto para manipular y para enviar datos a otra app, sistema, etc es mediante JSON
+
+// Objeto para manipular y para enviar datos a otra app, sistema, etc. Puede ser mediante JSON
 // JSON.parse => Conviertes de un objeto (string) JSON a un objeto JavaScript
 // JSON.stringify() => Conviertes un objeto JavaScript a JSON
