@@ -1,0 +1,38 @@
+{
+    "name": "Victor",
+    "lastname": "",
+    "age": 34,
+    "nickname": "byvicsoo",
+    "hobbies": [
+        "run",
+        "soccer",
+        "watch movies"
+    ],
+    "address": {
+        "street": "Montalvo 26",
+        "city": "Tizayuca"
+    },
+    "married": true,
+    "friends": [
+        {
+            "name": "Armando",
+            "nickname": "Pelon",
+            "age": 24
+        },
+        {
+            "name": "Daniel",
+            "nickname": "Jicaras",
+            "age": 34
+        },
+        {
+            "name": "Jonh",
+            "nickname": "Goku",
+            "age": 43
+        },
+        {
+            "name": "Luis",
+            "nickname": "Negro",
+            "age": 23
+        }
+    ]
+}
