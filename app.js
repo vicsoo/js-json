@@ -14,6 +14,12 @@ const user = {
     }
 }
 
+console.log(user);
+console.log(user.name);
+console.log(user.getUser);
+console.log(user.hobbies);
+console.log(JSON.stringify(user));
+
 const friends = [
     {"name": "Armando", "nickname": "Pelon", "age": 24},
     {"name": "Daniel", "nickname": "Jicaras", "age": 34},
@@ -31,12 +37,6 @@ for (let i = 0; i < friends.length; i++) {
 
 document.getElementById("people").innerHTML = output;
 
-console.log(user);
-console.log(user.name);
-console.log(user.getUser);
-console.log(user.hobbies);
-console.log(JSON.stringify(user));
-
 let album = ''
 
 fetch('https://jsonplaceholder.typicode.com/albums')
@@ -50,7 +50,6 @@ fetch('https://jsonplaceholder.typicode.com/albums')
     document.getElementById("album").innerHTML = album;
 })
 
-
 // Objeto para manipular y para enviar datos a otra app, sistema, etc. Puede ser mediante JSON
-// JSON.parse => Conviertes de un objeto (string) JSON a un objeto JavaScript
-// JSON.stringify() => Conviertes un objeto JavaScript a JSON
+// JSON.parse => Convertir de un objeto (string) JSON a un objeto JavaScript
+// JSON.stringify() => Convertir un objeto JavaScript a JSON
