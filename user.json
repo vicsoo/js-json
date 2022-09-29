@@ -1,8 +1,8 @@
 {
     "name": "Victor",
-    "lastname": "",
-    "age": 34,
-    "nickname": "byvicsoo",
+    "lastname": "Soto",
+    "age": 35,
+    "nickname": "vicsoo",
     "hobbies": [
         "run",
         "soccer",
@@ -10,7 +10,7 @@
     ],
     "address": {
         "street": "Montalvo 26",
-        "city": "Tizayuca"
+        "city": "HDG"
     },
     "married": true,
     "friends": [
