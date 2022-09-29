@@ -1,12 +1,12 @@
 const user = {
     "name": "Victor",
     "lastname": "",
-    "age": 34,
+    "age": 35,
     "nickname": "byvicsoo",
     "hobbies": ["run","soccer","watch movies"],
     "address": {
         "street": "Montalvo 26",
-        "city": "Tizayuca"
+        "city": "HDG"
     },
     "married": true,
     getUser() {
